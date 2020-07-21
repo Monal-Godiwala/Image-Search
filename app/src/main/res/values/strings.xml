@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Image Search</string>
+
+    <string name="hint_search_image">Search Image</string>
+    <string name="hint_add_comments">Add Comments…</string>
+
+    <string name="title_comments">Comments</string>
+
+    <string name="message_no_internet_connection">Please check your Internet Connection!</string>
+    <string name="message_no_image_found">No image found!</string>
+    <string name="message_add_comment">Please add comment!</string>
+
+    <string name="action_submit">Submit</string>
+
+
+</resources>

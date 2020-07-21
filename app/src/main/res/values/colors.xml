@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#83c5be</color>
+    <color name="colorPrimaryDark">#006d77</color>
+    <color name="colorAccent">#e29578</color>
+
+    <color name="color_charcoal_grey">#383b42</color>
+    <color name="color_shimmer">#A5A5A5</color>
+    <color name="color_battleship_grey">#6f7079</color>
+</resources>

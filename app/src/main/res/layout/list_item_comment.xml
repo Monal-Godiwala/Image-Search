@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="comment"
+            type="com.mg.imagegallery.data.database.Comment" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@{comment.commentText}"
+            android:textColor="@color/color_charcoal_grey"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World " />
+
+        <TextView
+            android:id="@+id/text_comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{comment.commentDateTime}"
+            android:textColor="@color/color_battleship_grey"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@id/text_comment"
+            app:layout_constraintTop_toBottomOf="@id/text_comment"
+            tools:text="13 Jul, 12:30 PM" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+
+
+
